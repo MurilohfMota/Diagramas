@@ -1,0 +1,18 @@
+usuarios (cadastro)
+  if estrangeiro = "pedente ou atraso"
+  1. solicitar emprestimo
+          if(linha de credito == true){concede emprestimo}
+          else{nao conceder emprestimo}
+  2. pagar emprestimo
+      if(dt.pagamento <= vencimento){ retorna duplicata paga + coprovante}
+      else{assina duplicatas como "nao pagas"}
+
+
+emprestimo
+  1.valor 
+  2.parcelas
+
+modulo de financiamento
+departamentos de credito e combrança.
+departamento comercial
+mercado financeiro
